@@ -32,7 +32,7 @@ This dashboard enables HR leaders and workforce planners to:
 
 
 
-#Dashboard Objectives
+                                                      Dashboard Objectives
 
 The dashboard answers the following questions:
 
@@ -50,7 +50,7 @@ The dashboard answers the following questions:
 
 
 
-#Why Include Actual vs. Target?
+                                                      Why Include Actual vs. Target?
 
 The Actual vs. Target visualization allows leaders to compare workforce levels against staffing goals over time. By tracking headcount performance against planned targets, decision-makers can quickly identify staffing shortages, surpluses, and trends that may impact organizational effectiveness.
 
@@ -58,7 +58,7 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 
-#Dashboard Features
+                                                      Dashboard Features
 
 •	Active Employees vs. Target
 
@@ -74,7 +74,7 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 
-#Key Insights
+                                                      Key Insights
 
 •	Engineering represents the largest functional group with 3,330 employees.
 
@@ -90,7 +90,7 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 
-#Technologies Used
+                                                    Technologies Used
 
 •	Tableau Public
 
@@ -100,7 +100,7 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 
-#Skills Shown
+                                                    Skills Shown
 
 •	Workforce Analytics
 
