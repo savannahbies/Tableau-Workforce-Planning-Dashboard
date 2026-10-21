@@ -6,7 +6,7 @@ Workforce Planning Dashboard built in Tableau to analyze staffing targets, emplo
 
 
 
-#Business Problem
+                                                       Business Problem
 
 Organizations need visibility into workforce composition, staffing levels, employee demographics, and geographic distribution to ensure resources are aligned with business objectives. This dashboard helps leaders monitor staffing performance, evaluate workforce structure, and identify trends that may influence future hiring and resource allocation decisions.
 
@@ -14,7 +14,7 @@ Organizations need visibility into workforce composition, staffing levels, emplo
 
 
 
-#Business Value
+                                                       Business Value
 
 This dashboard enables HR leaders and workforce planners to:
 
