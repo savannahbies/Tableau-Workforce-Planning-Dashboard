@@ -14,6 +14,7 @@ Organizations need visibility into workforce composition, staffing levels, emplo
 #Business Value
 
 This dashboard enables HR leaders and workforce planners to:
+
 •	Monitor actual staffing levels against workforce targets
 •	Evaluate workforce distribution across business functions
 •	Analyze employee work arrangements (On-Site, Hybrid, Remote)
@@ -24,6 +25,7 @@ This dashboard enables HR leaders and workforce planners to:
 #Dashboard Objectives
 
 The dashboard answers the following questions:
+
 •	Are current staffing levels meeting organizational targets?
 •	How is the workforce distributed across On-Site, Hybrid, and Remote arrangements?
 •	Where are employees geographically located?
