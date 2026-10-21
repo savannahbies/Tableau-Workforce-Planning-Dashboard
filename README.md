@@ -7,10 +7,12 @@ Workforce Planning Dashboard built in Tableau to analyze staffing targets, emplo
 
 
 #Business Problem
+
 Organizations need visibility into workforce composition, staffing levels, employee demographics, and geographic distribution to ensure resources are aligned with business objectives. This dashboard helps leaders monitor staffing performance, evaluate workforce structure, and identify trends that may influence future hiring and resource allocation decisions.
 
 
 #Business Value
+
 This dashboard enables HR leaders and workforce planners to:
 •	Monitor actual staffing levels against workforce targets
 •	Evaluate workforce distribution across business functions
@@ -20,6 +22,7 @@ This dashboard enables HR leaders and workforce planners to:
 
 
 #Dashboard Objectives
+
 The dashboard answers the following questions:
 •	Are current staffing levels meeting organizational targets?
 •	How is the workforce distributed across On-Site, Hybrid, and Remote arrangements?
@@ -29,10 +32,12 @@ The dashboard answers the following questions:
 
 
 #Why Include Actual vs. Target?
+
 The Actual vs. Target visualization allows leaders to compare workforce levels against staffing goals over time. By tracking headcount performance against planned targets, decision-makers can quickly identify staffing shortages, surpluses, and trends that may impact organizational effectiveness.
 
 
 #Dashboard Features
+
 •	Active Employees vs. Target
 •	Work Arrangement/Site (On-Site, Hybrid, Remote)
 •	Employee Geographic Distribution Map
@@ -41,6 +46,7 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 #Key Insights
+
 •	Engineering represents the largest functional group with 3,330 employees.
 •	Sales is the second-largest workforce segment with 2,342 employees.
 •	The organization maintains a balanced mix of On-Site, Hybrid, and Remote employees.
@@ -49,11 +55,13 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 #Technologies Used
+
 •	Tableau Public
 •	Microsoft Excel
 
 
 #Skills Shown
+
 •	Workforce Analytics
 •	Data Visualization
 •	Business Intelligence Reporting
@@ -61,14 +69,12 @@ The Actual vs. Target visualization allows leaders to compare workforce levels a
 
 
 
-View the Tableau Public Interactive Dashboard Here:  Click Here
 
-If "Click Here" does not populate, use the link below:
+
+View the Tableau Public Interactive Dashboard Here:  
+
 
 https://public.tableau.com/views/HRDashboard_17925460907720/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
-
-
 
 
 
