@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20252.25.0514.2217                               -->
-<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -19,6 +19,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='HRDashboard_17925460907720' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -28,7 +29,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='HR Data' name='excel-direct.0hey1r00vxrlo013lv9ae10yk33s'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/archive/New Folder/Tutorials/Tableau Reports/HR Dashboard/HR Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/archive/New Folder/Tutorials/Tableau Reports/HR Dashboard/HR Data.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.0hey1r00vxrlo013lv9ae10yk33s' name='Totals' table='[Totals$]' type='table'>
@@ -124,7 +125,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Totals_ED1F38654BEC4C86886E890B25DC299F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Actual</remote-name>
@@ -138,7 +138,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Totals_ED1F38654BEC4C86886E890B25DC299F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Target</remote-name>
@@ -152,7 +151,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Totals_ED1F38654BEC4C86886E890B25DC299F]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -204,7 +202,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='HR Data' name='excel-direct.1lo7koy1h0prch117fjff0jgy517'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/archive/New Folder/Tutorials/Tableau Reports/HR Dashboard/HR Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/archive/New Folder/Tutorials/Tableau Reports/HR Dashboard/HR Data.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.1lo7koy1h0prch117fjff0jgy517' name='Employee Data' table='[&apos;Employee Data$&apos;]' type='table'>
@@ -1002,6 +1000,15 @@
               <lod column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]' />
               <text column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Site:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Employees:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
             <customized-label>
               <formatted-text>
                 <run fontsize='11'>Hybrid</run>
@@ -1063,6 +1070,18 @@
               <lod column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]' />
               <lod column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Location:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Location:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Site:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Employees:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
             <style>
               <style-rule element='mark'>
                 <format attr='mark-color' value='#75a1c7' />
@@ -1106,6 +1125,15 @@
               <lod column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]' />
               <text column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Site:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Employees:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
             <customized-label>
               <formatted-text>
                 <run fontsize='11'>On-Site</run>
@@ -1157,6 +1185,15 @@
               <lod column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]' />
               <text column='[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Site:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[none:Site:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Employees:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.125gvbg0uw8c6z18l8q3c0r7tuph].[ctd:Employee ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
             <customized-label>
               <formatted-text>
                 <run fontsize='11'>Remote</run>
@@ -1218,8 +1255,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97714' id='20' param='vert' type-v2='layout-flow' w='98726' x='637' y='1143'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='24' param='vert' type-v2='layout-flow' w='98726' x='637' y='1143'>
                 <zone fixed-size='280' h='91375' id='3' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='100000' x='0' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1394,7 +1431,7 @@
         <viewpoint name='On-Site KPI' />
         <viewpoint name='Remote' />
       </viewpoints>
-      <active id='4' />
+      <active id='-1' />
       <simple-id uuid='{B9C11E26-2C0D-405F-89BA-2478E60928B0}' />
     </window>
     <window class='worksheet' name='Actuals vs Target'>
